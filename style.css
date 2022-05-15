@@ -93,7 +93,7 @@ h4 i {
 h1 {
 
 
-    background-image: url(../cas4.jpeg);
+    background-image: url(.images/cas4.jpeg);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
