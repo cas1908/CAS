@@ -15,6 +15,7 @@ h4 {
     padding: 1rem;
     position: absolute;
     left: 5%;
+    font-size: 1.2rem;
 }
 h4 i {
     padding: 0.2rem;
@@ -45,7 +46,7 @@ h4 i {
 }
 .grt-text {
     position: absolute; 
-    bottom: 15%;
+    bottom: 13%;
     width: 90%;
     left: 5%;
     z-index: 1;
@@ -92,7 +93,11 @@ h4 i {
 } */
 h1 {
     color: #000;
+    font-size: 2.2rem;
     text-transform: uppercase;
+}
+.grt-text p {
+    font-size: 1.8rem;
 }
 
 nav {
@@ -117,46 +122,50 @@ nav ul li {
     gap: 5rem;
     font-weight: 600;
     text-align: center;
+    /* color: #fff; */
 }
 nav ul li:hover {
     background-color: rgba(0, 0, 0, 0.504);
+    color: #fff;
 }
 .menu-btn {
-    width: 7%;
+    width: 10%;
     position: fixed;
     right: 5%;
-    padding: 0.1rem;
-    border: 1px solid #211f1f;
+    /* top: 2%; */
+    padding: 0.2rem;
+    /* border: 1px solid #211f1f; */
 }
 .menu-btn span {
     display: block;
-    margin: 10%;
+    margin: 10% auto;
+    width: 80%;
     transition: all .2s linear;
-    border-bottom: 2px solid #211f1f;
+    border-bottom: 2.5px solid #211f1f;
 
 }
 .header.active nav {
     position: absolute;
     right: 0;
     z-index: 999;
-    background: linear-gradient(to top left, rgb(255, 255, 255), transparent);
+    background: linear-gradient(rgba(129, 126, 150, 0.969), rgba(74, 65, 65, 0.747));
     width: 70%;
 }
 .header.active .menu-btn span:nth-child(1) {
-    transform: rotate(42deg) translate(4px, 3px);
+    transform: rotate(40deg) translate(2px,6px);
 }
 .header.active .menu-btn span:nth-child(2) {
     opacity: 0;
 }
 .header.active .menu-btn span:nth-child(3) {
-    transform: rotate(-42deg) translate(2px, -3px);
+    transform: rotate(-40deg) translate(2px, -6px);
 }
 .header.active nav ul{
     margin-left: 50%;
 }
 /* ABOUT */
 #about {
-    background: linear-gradient(rgba(173, 168, 168, 0.237), rgba(234, 230, 230, 0.25)), url("./images/cas3.jpeg");
+    background: linear-gradient(rgba(54, 48, 48, 0.969), rgba(74, 65, 65, 0.747)), url("./images/bg.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -383,7 +392,7 @@ nav ul li:hover {
 }
 footer {
     background-color: #000;
-    color: #211f1f;
+    color: #fff;
     font-weight: 600;
     text-align: center;
     padding: 0.5rem;
@@ -507,7 +516,7 @@ img {
         padding: 0.2rem 0;
     }
     h1{
-        font-size: 1.7rem;
+        font-size: 2rem;
         padding: 0;
     }
     .menu-btn {
