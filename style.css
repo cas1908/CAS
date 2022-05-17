@@ -165,7 +165,7 @@ nav ul li:hover {
 }
 /* ABOUT */
 #about {
-    background: linear-gradient(rgba(54, 48, 48, 0.969), rgba(74, 65, 65, 0.747)), url("./images/bg1.jpeg");
+    background: linear-gradient(rgba(54, 48, 48, 0.969), rgba(74, 65, 65, 0.747)), url("./images/bg2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
